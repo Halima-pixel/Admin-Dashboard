@@ -29,14 +29,14 @@ html {
 
 .sidebar1,
 .sidebar2 {
-  margin-top: 2rem;
+  margin-top: 1rem;
+  font-size: 17px;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(2, 40px);
+  grid-template-columns: repeat(2, 28px);
   align-items: center;
-  gap: 10px;
   padding-left: 15px;
 }
 .dashboard p {
@@ -44,14 +44,10 @@ html {
   font-weight: 700;
 }
 
-.sidebar1,
-.sidebar2 {
-  font-size: 17px;
-}
-
 .header {
   border: 1px solid red;
   grid-area: header;
+  padding: 10px;
 }
 
 .search-bar {
@@ -67,11 +63,12 @@ html {
   border-radius: 10px;
 }
 
-.notification {
+.notification,
+.leftSecondRow {
   display: grid;
   grid-template-columns: repeat(3, 70px);
   align-items: center;
-  margin-left: 70px;
+  margin-left: 35px;
 }
 
 .notification p {
@@ -80,13 +77,43 @@ html {
   width: 30em;
 }
 
-.firstRow {
+.firstRow,
+.secondRow {
   display: grid;
   grid-template-columns: 2fr 1fr;
   align-items: center;
 }
 
-.main {
+.username:nth-child(2) {
+  font-size: 1.2rem;
+  width: 20rem;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+#firstP {
+  font-size: 12px;
+  margin: 0;
+}
+
+.rightSecondRow {
+  display: grid;
+  grid-template-columns: repeat(3, 95px);
+  align-items: center;
+  margin-left: 70px;
+}
+
+.rightSecondRow p {
+  background-color: #ea580c;
+  width: 5rem;
+  padding: 7px;
+  text-align: center;
+  border-radius: 25px;
+  color: #e5e7eb;
+  font-weight: 700;
+}
+
+. .main {
   display: grid;
   border: 1px solid red;
   grid-area: main;
