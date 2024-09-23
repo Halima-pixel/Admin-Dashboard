@@ -2,6 +2,12 @@
   box-sizing: border-box;
 }
 
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   display: grid;
   grid-template-columns: 1fr 4fr;
@@ -15,20 +21,27 @@
 .sidebar {
   border: 1px solid red;
   grid-area: sidebar;
-  background-color: #22c55e;
+  background-color: #b45309;
   color: #f8fafc;
   font-weight: 800;
-}
-.grid {
   border: 1px solid red;
+}
+
+.sidebar1,
+.sidebar2 {
+  margin-top: 2rem;
+}
+
+.grid {
   display: grid;
   grid-template-columns: repeat(2, 40px);
   align-items: center;
   gap: 10px;
-  padding-left: 20px;
+  padding-left: 15px;
 }
-dashboard p {
+.dashboard p {
   font-size: 20px;
+  font-weight: 700;
 }
 
 .sidebar1,
@@ -39,6 +52,38 @@ dashboard p {
 .header {
   border: 1px solid red;
   grid-area: header;
+}
+
+.search-bar {
+  display: grid;
+  grid-template-columns: repeat(2, 30px);
+  margin-left: 40px;
+}
+
+.searchBox {
+  width: 30rem;
+  height: 1.5rem;
+  background-color: #e5e7eb;
+  border-radius: 10px;
+}
+
+.notification {
+  display: grid;
+  grid-template-columns: repeat(3, 70px);
+  align-items: center;
+  margin-left: 70px;
+}
+
+.notification p {
+  font-size: 15px;
+  font-weight: 700;
+  width: 30em;
+}
+
+.firstRow {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
 }
 
 .main {
