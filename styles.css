@@ -15,14 +15,34 @@
 .sidebar {
   border: 1px solid red;
   grid-area: sidebar;
+  background-color: #22c55e;
+  color: #f8fafc;
+  font-weight: 800;
+}
+.dashboard {
+  border: 1px solid red;
+  display: grid;
+  grid-template-columns: repeat(2, 40px);
+  align-items: center;
+  gap: 15px;
 }
 
-.header {
+.dashboard p {
+  font-size: 20px;
+}
+
+.sidebar1,
+.sidebar2 {
+  font-size: 17px;
+}
+
+. .header {
   border: 1px solid red;
   grid-area: header;
 }
 
 .main {
+  display: grid;
   border: 1px solid red;
   grid-area: main;
 }
