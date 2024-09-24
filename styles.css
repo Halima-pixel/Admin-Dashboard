@@ -110,8 +110,8 @@ html {
 
 .rightSecondRow p {
   background-color: #ea580c;
-  width: 5rem;
-  padding: 3px;
+  width: 4rem;
+  padding: 7px;
   text-align: center;
   border-radius: 25px;
   color: #e5e7eb;
@@ -140,6 +140,7 @@ html {
 
 .Announcement {
   grid-area: announcement;
+  margin-bottom: 0;
 }
 
 .impossible {
@@ -156,10 +157,12 @@ html {
 
 .money {
   grid-area: money;
+  height: 200px;
 }
 
 .Ad {
   grid-area: ad;
+  height: 200px;
 }
 
 .maingrids,
@@ -188,9 +191,13 @@ html {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  gap: 15px;
+  gap: 20px;
 }
 
 .bold {
   font-weight: 700;
+}
+
+.gray {
+  font-size: 14px;
 }
