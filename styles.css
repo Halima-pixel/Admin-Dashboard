@@ -120,14 +120,50 @@ html {
 
 .main {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  /* grid-template-rows: repeat(2, 1fr); */
   gap: 20px;
-  /* align-items: stretch; */
-  grid-area: main;
-  padding: 30px;
+  padding: 20px;
+  grid-template-areas:
+    "supercool lesscool announcement"
+    "impossible easy announcement"
+    "ad money trending ";
 }
 
-.maingrids {
-  background-color: #fff7ed;
+.supercool {
+  grid-area: supercool;
+}
+
+.lesscool {
+  margin-top: 49px;
+  grid-area: lesscool;
+}
+
+.Announcement {
+  grid-area: announcement;
+}
+
+.impossible {
+  grid-area: impossible;
+}
+
+.Easy {
+  grid-area: easy;
+}
+
+.trending {
+  grid-area: trending;
+}
+
+.money {
+  grid-area: money;
+}
+
+.Ad {
+  grid-area: ad;
+}
+
+.maingrids,
+.side {
+  background-color: #f8fafc;
+  border-radius: 10px;
+  padding: 20px;
 }
