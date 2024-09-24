@@ -29,7 +29,7 @@ html {
 .sidebar1,
 .sidebar2 {
   margin-top: 1rem;
-  font-size: 12px;
+  font-size: 17px;
 }
 
 .grid {
@@ -178,4 +178,19 @@ html {
 
 .iconText p {
   width: 150px;
+}
+
+.iconText div:first-child {
+  margin-top: 20px;
+}
+
+.icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 15px;
+}
+
+.bold {
+  font-weight: 700;
 }
