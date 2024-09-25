@@ -32,6 +32,11 @@ html {
   cursor: pointer;
 }
 
+.sidebar1 button:hover,
+.sidebar2 button:hover {
+  opacity: 0.7;
+}
+
 .sidebar0 {
   margin-left: 10px;
 }
@@ -147,6 +152,10 @@ html {
   font-weight: 700;
   font-size: 12px;
   cursor: pointer;
+}
+
+.rightSecondRow button:hover {
+  opacity: 0.7;
 }
 
 .main {
