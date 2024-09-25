@@ -26,10 +26,21 @@ html {
   font-weight: 800;
 }
 
+.sidebar0 {
+  margin-left: 20px;
+}
+
 .sidebar1,
 .sidebar2 {
-  margin-top: 1rem;
+  margin-top: 2rem;
   font-size: 17px;
+  margin-left: 20px;
+  margin-top: 4rem;
+}
+
+.sidebar1 div,
+.sidebar2 div {
+  margin-bottom: 2rem;
 }
 
 .grid {
@@ -41,6 +52,7 @@ html {
 .dashboard p {
   font-size: 20px;
   font-weight: 700;
+  margin-left: 20px;
 }
 
 .header {
@@ -60,6 +72,8 @@ html {
   height: 1.5rem;
   background-color: #e5e7eb;
   border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  outline: 1px solid #b45309;
 }
 
 .notification {
@@ -108,11 +122,12 @@ html {
   justify-content: end;
 }
 
-.rightSecondRow p {
+.rightSecondRow button {
   background-color: #ea580c;
   width: 4rem;
   padding: 7px;
   text-align: center;
+  border: 1px solid #ea580c;
   border-radius: 25px;
   color: #e5e7eb;
   font-weight: 700;
